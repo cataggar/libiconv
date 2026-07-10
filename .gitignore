@@ -615,3 +615,9 @@ autom4te.cache/
 .#*
 \#*#
 
+# Zig (this repo's zig16 branch adds a build.zig; the generated headers
+# above are committed -- see lib/gen-aliases-header.py -- specifically so
+# `zig build` doesn't need gperf/autotools/a host C compiler bootstrap.)
+.zig-cache/
+zig-out/
+
